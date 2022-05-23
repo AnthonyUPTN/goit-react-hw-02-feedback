@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 
-import s from './feedbackOptions.module.css';
+import './feedbackOptions.module.css';
 
 function FeedbackOptions({ options, onLeaveFeedback }) {
   const elements = options.map((el, idx) => (
